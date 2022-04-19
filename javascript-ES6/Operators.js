@@ -31,10 +31,20 @@
 // console.log(happy);
 
 
-const isLoggedIn = true;
-const hasPermissions = true;
+// const isLoggedIn = true;
+// const hasPermissions = false;
 
-if(isLoggedIn && hasPermissions) {
-    // Delete an item
-    console.log('Item deleted sucessfully');
-}
+// if(isLoggedIn && hasPermissions) {
+//     // Delete an item
+//     console.log('Item deleted sucessfully');
+// }
+
+
+// Logical or ||
+
+// const happy = true || false;
+// const happy = false || true;
+// console.log(happy);
+
+
+
