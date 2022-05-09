@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+html {
+    font-size: 100%;
+}
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+} */
+
+#btn-red {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
