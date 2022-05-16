@@ -1,0 +1,21 @@
+.main_box {
+    background-color: skyblue;
+    width: 550px;
+    height: 450px;
+     }
+     .box1 {
+    background-color: green;
+    width: 450px;
+    height: 150px;
+     }
+     .box2 {
+    background-color:aliceblue;
+    width: 300px;
+    height: 250px;
+     }
+     .box3 {
+    background-color: rgb(3, 3, 69);
+    width: 100px;
+    height: 70px;
+     }
+     
