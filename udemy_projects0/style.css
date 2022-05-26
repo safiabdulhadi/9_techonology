@@ -1,21 +1,23 @@
-.main_box {
-    background-color: skyblue;
-    width: 550px;
-    height: 450px;
-     }
-     .box1 {
-    background-color: green;
-    width: 450px;
-    height: 150px;
-     }
-     .box2 {
-    background-color:aliceblue;
-    width: 300px;
+.box1 {
+    background-color:yellow;
+    width: 600px;
+    height: 400px;
+}
+
+.box2 {
+    background-color: pink;
+    width: 400px;
     height: 250px;
-     }
-     .box3 {
+}
+
+.box3 {
     background-color: rgb(3, 3, 69);
     width: 100px;
-    height: 70px;
-     }
-     
+    height: 300px;
+}
+
+.box4 {
+    background-color: purple;
+    width: 350px;
+    height: 120;
+}
