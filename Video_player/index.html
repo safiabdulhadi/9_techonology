@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="video_player">
+        <video class="myVideo" src="menu-Bar.mp4"></video>
+
+        <div class="progress_outer">
+            <span class="progress_inner"></span>
+        </div>
+
+        <div class="controls">
+            <div class="controls-left">
+                <span class="backward">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <small>10</small>
+                </span>
+                <span class="play-pause-btn">
+                    <i class="playBtn fa-solid fa-play"></i>
+                </span>
+                <span class="forward">
+                    <i class="fa-solid fa-rotate-right"></i>
+                    <small>10</small>
+                </span>
+                <span class="volume-control">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" min="0" max="100" class="volume_range">
+                </span>
+                <span>
+                    <span class="video_duration">00:00</span> / <span class="video_current_time">00:00</span>
+                </span>
+            </div>
+            <div class="controls-right">
+                <span class="pic-in-pic">
+                    <i class="fa-solid fa-photo-film"></i>
+                </span>
+                <span class="fullscreen">
+                    <i class=" fullscreenIcan fa-solid fa-expand"></i>
+                </span>
+
+            </div>
+        </div>
+
+    </section>
+
+    <i class=" fa-compress"></i>
+    <script src="script.js"></script>
+</body>
+
+</html>
