@@ -1,0 +1,38 @@
+                   :root {
+                      --danger: #eb2f06;
+                      --warning: #fed330;
+                      --secondary: #CAD3C8;
+                      --dark: #2f3542;
+                      --light-gray: #dfe4ea;
+                      --ex-light-gray: #f1f2f6;
+                      --orange: orange;
+                  }
+                  
+                  *,
+                   ::before,
+                   ::after {
+                      margin: 0;
+                      padding: 0;
+                      box-sizing: border-box;
+                      animation: all 0.5s ease;
+                  }
+                  
+                  body {
+                      font-family: 'Poppins', sans-serif;
+                  }
+                  
+                  .container-fluid {
+                      width: 100%;
+                  }
+                  
+                  .container {
+                      width: 90%;
+                  }
+                  
+                  .bg-danger {
+                      background-color: var(--danger);
+                  }
+                  
+                  .bg-dark {
+                      background-color: var(--dark)
+                  }
